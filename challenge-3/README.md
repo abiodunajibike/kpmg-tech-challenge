@@ -23,7 +23,7 @@ pipenv install --ignore-pipfile
 
 #### Run unit tests
 ```
-python -m pytest --cov-report term-missing --cov=. test_get_nested_object_value.py
+python3 -m pytest --cov-report term-missing --cov=. test_get_nested_object_value.py
 ```
 
 ```
