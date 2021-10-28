@@ -33,3 +33,6 @@ I have chosen to use the [AWS VPC Terraform module](https://github.com/terraform
     3 Elastic IPs for the NAT Gateways
     3 NAT Gateways for the private subnets (deployed in the public subnets for internet connectivity)
     ```
+
+### ToDo
+- Move backend to an S3 bucket.
